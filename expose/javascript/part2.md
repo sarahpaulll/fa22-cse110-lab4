@@ -28,6 +28,7 @@
     - A: '2' > 1 = true since the strings are converted to a number
     - B: '2' < '12' = false since the strings are converted to a number
     - C: 2 =='2' = true since the strings are converted to a number
-    - D: 2 === 2 = false
+    - D: 2 === '2' = false because === checks the equality without type conversion
     - E: true == 2 = false since true is mapped to 1 for numeric conversion
-    - F: true === Boolean(2) = true
+    - F: true === Boolean(2) = true because === checks for equality without type conversion and Boolean(2) = True
+15. The === operator checks for equality without type conversion, while the == operator checks for equality with type conversion. Thus with the === operator if a and b are different types then a === b returns false without trying to convert them. 

@@ -9,4 +9,10 @@
 9. At line 11 it will have an error that i is not defined since i is declared using let it will not be accessible outside of the code block.
 10. At line 12 it will print to the console 3 since the constant variable length is equal to 3.
 11. The function will return the array discounted which is [50, 100, 150] since in the first iteration of the loop discountedPrice = 50 and this is pushed into the array discounted, on the second iteration discountedPrice = 100 and this is pushed into the array discounted, and on the last iteration discountedPrice = 150 and this is pushed into the array discounted.
+12. 
+    - A: student.name
+    - B: student['Grad Year']
+    - C: student.greeting()
+    - D: student['Favorite Teacher'].name
+    - E: student.courseLoad[0] 
 

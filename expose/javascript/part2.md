@@ -5,4 +5,8 @@
 5. There will be an error at line 12, since the variable i is declared with let it will not be accessible after the code block, thus on line 12 when it calls i, i will not be defined.
 6. There will be an error at line 13, since the variable discountedPrice is declared with let it will not be accessible after the code block. Thus, on line 13 when it calls discountedPrice, discountedPrice will not be defined.
 7. On line 14 it will print 150 to the console, since finalPrice is declared with let it can be reassigned in the for loop. During the last iteration of the loop the finalPrice is set equal to 150. Since finalPrice is declared in the same codeblock as line 14 it can be successfully called in console.log(finalPrice).
-8. 
+8. The function will return the variable discounted which is represented by [50, 100, 150] since when you call the function with the parameters prices = [100, 200, 300] and discount = 0.5, the function calculates the discounted prices for each input in the array and then pushes it into the array discounted which will then be later returned.
+9. At line 11 it will have an error that i is not defined since i is declared using let it will not be accessible outside of the code block.
+10. At line 12 it will print to the console 3 since the constant variable length is equal to 3.
+11. The function will return the array discounted which is [50, 100, 150] since in the first iteration of the loop discountedPrice = 50 and this is pushed into the array discounted, on the second iteration discountedPrice = 100 and this is pushed into the array discounted, and on the last iteration discountedPrice = 150 and this is pushed into the array discounted.
+

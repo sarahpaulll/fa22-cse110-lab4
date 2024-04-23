@@ -14,5 +14,20 @@
     - B: student['Grad Year']
     - C: student.greeting()
     - D: student['Favorite Teacher'].name
-    - E: student.courseLoad[0] 
-
+    - E: student.courseLoad[0]
+13. Arithmetic
+    - A: '3' + 2 = '32' since integers map to their exact string representation
+    - B: '3' - 2 = 1 since strings are converted to numbers
+    - C: 3 + null = 3 since null becomes 0 for numeric conversion
+    - D: '3' + null = '3null' since null maps to a string 'null'
+    - E: true + 3 = 4 since true maps to 1 
+    - F: false + null = 0 since false maps to 0 and null maps to 0
+    - G: '3' + undefined = '3undefined' since undefined maps to a string 'undefined'
+    - H: '3' - undefined = NaN since undefined maps to NaN for numeric conversion
+14. Comparison
+    - A: '2' > 1 = true since the strings are converted to a number
+    - B: '2' < '12' = false since the strings are converted to a number
+    - C: 2 =='2' = true since the strings are converted to a number
+    - D: 2 === 2 = false
+    - E: true == 2 = false since true is mapped to 1 for numeric conversion
+    - F: true === Boolean(2) = true

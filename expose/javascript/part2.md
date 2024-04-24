@@ -32,7 +32,9 @@
     - E: true == 2 = false since true is mapped to 1 for numeric conversion
     - F: true === Boolean(2) = true because === checks for equality without type conversion and Boolean(2) = True
 15. The === operator checks for equality without type conversion, while the == operator checks for equality with type conversion. Thus with the === operator if a and b are different types then a === b returns false without trying to convert them.
+16. separate file
 17. The result is [2,4,6] since in each iteration of the for loop the newArr pushes a value that is returned from the function doSomething, which multiples the number in the parameter array by 2.
+18. separate file
 19. The output of the code is: \
     1 \
     4 \
